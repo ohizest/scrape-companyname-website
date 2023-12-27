@@ -39,6 +39,6 @@ driver.quit()
 df = pd.DataFrame(company_dict)
 
 # Export the data to a CSV file
-df.to_csv("Company.csv", index=False)
+df.to_csv("Company Names and Websites.csv", index=False)
 
 print("Data exported to Company Names and Website.csv")
